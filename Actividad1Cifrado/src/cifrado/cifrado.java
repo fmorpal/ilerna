@@ -24,7 +24,7 @@ public class cifrado {
         // Pide al usuario que ingrese la contraseña nuevamente
         System.out.print("Introduce la contraseña para acceder al archivo: ");
         String contraseñaIngresada = scanner.nextLine();
-//
+
         // Comprueba si la contraseña ingresada es correcta
         boolean contraseñaCorrecta = verificarContraseña(nombreArchivo, contraseñaIngresada);
 
